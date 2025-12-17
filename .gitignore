@@ -1,0 +1,11 @@
+# Python-generated files
+.env
+*.pyc
+__pycache__/
+dbt_packages/
+target/
+.dbt/
+
+# Virtual environments
+.venv
+venv/

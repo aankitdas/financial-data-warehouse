@@ -1,0 +1,23 @@
+[project]
+name = "financial-data-warehouse"
+version = "0.1.0"
+description = "Production data warehouse for financial analytics"
+requires-python = ">=3.11"
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+dependencies = [
+    "dbt-snowflake>=1.7.0",
+    "pandas>=2.1.4",
+    "pyarrow>=22.0.0",
+    "python-dotenv>=1.0.0",
+    "requests>=2.31.0",
+    "snowflake-connector-python>=3.5.0",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.12.0",
+    "flake8>=7.3.0",
+    "pytest>=9.0.2",
+]
